@@ -18,3 +18,22 @@ It uses basic NLP techniques to provide responses.
 ```bash
 python chatbot.py
 ```
+# AI Chatbot for Students 🤖
+# Basic chatbot using Python dictionaries (extend with NLP libraries)
+
+def chatbot_response(user_input):
+    responses = {
+        "hi": "Hello! How can I help you today?",
+        "bye": "Goodbye! Have a nice day.",
+        "who are you": "I am a simple student chatbot.",
+    }
+    return responses.get(user_input.lower(), "Sorry, I don't understand that yet.")
+
+if __name__ == "__main__":
+    print("Chatbot is running... (type 'bye' to exit)")
+    while True:
+        user_input = input("You: ")
+        response = chatbot_response(user_input)
+        print("Bot:", response)
+        if user_input.lower() == "bye":
+            break
