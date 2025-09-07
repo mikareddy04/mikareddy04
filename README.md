@@ -1,16 +1,20 @@
-## Hi there 👋
+# AI Chatbot for Students 🤖
 
-<!--
-**mikareddy04/mikareddy04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 📌 Overview
+A simple chatbot built in Python to answer frequently asked questions by students.  
+It uses basic NLP techniques to provide responses.
 
-Here are some ideas to get you started:
+## 🔧 Tools & Technologies
+- Python
+- NLTK / spaCy
+- Flask (for web deployment)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Features
+- Answer FAQs for students
+- Easy to expand with more intents
+- Can be integrated into web or mobile apps
+
+## 📂 How to Run
+```bash
+python chatbot.py
+```
